@@ -1,0 +1,25 @@
+title: Learning English
+subtitle: "English Grammar Lessons For Everyone"
+description: "English Grammar Lessons For Everyone"
+author: Dumindu Madunuwan
+language: en
+timezone: UTC
+
+url: https://learning-english.github.io
+root: /
+
+theme: navy
+
+deploy:
+  type: git
+  repo: git@github.com:learning-english/learning-english.github.io.git
+
+highlight:
+  enable: false
+
+google_analytics: UA-XXXXXXXXX-1
+algolia:
+  en:
+    api_key: xxxxxx
+    index_name: xxxxxx
+github: learning-english/site
